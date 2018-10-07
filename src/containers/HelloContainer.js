@@ -3,7 +3,7 @@ import Hello from "../components/HelloComponent";
 
 class HelloWorld extends Component {
     render() {
-        return <Hello/>
+        return <Hello message="Hello!!!"/>
     }
 }
 export default HelloWorld

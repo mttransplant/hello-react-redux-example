@@ -1,8 +1,8 @@
 import React from 'react'
-const Hello = () => {
+const Hello = ({message}) => {
     return (
         <div>
-            <h1>Hello World!</h1>
+            <h1>{message}</h1>
         </div>
     )
 }
